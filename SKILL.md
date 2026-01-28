@@ -1,6 +1,6 @@
 ---
 name: f2atools
-description: Interface with Flow2API for AI image/video generation. Supports text-to-image, image-to-image (base64), and model selection.
+description: Interface with YYDS API for AI image/video generation. Supports text-to-image, image-to-image (base64), and model selection.
 # EXTENDED METADATA (MANDATORY)
 github_url: https://github.com/YoKONCy/f2aTools
 github_hash: f75adcd78195cdc66d32901298327c433fa4c81d
@@ -12,7 +12,7 @@ dependencies: ["requests"]
 
 # f2aTools Skill
 
-This skill allows Claude to generate images and videos using the Flow2API service.
+This skill allows Claude to generate images and videos using the YYDS API service.
 
 ## Core Capabilities
 

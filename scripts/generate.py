@@ -86,7 +86,7 @@ def generate(prompt, model, image_path, api_base, api_key, stream=True):
         print(f"API request failed: {e}", file=sys.stderr)
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Generate images/videos using f2aTools (Flow2API)")
+    parser = argparse.ArgumentParser(description="Generate images/videos using f2aTools (YYDS API)")
     parser.add_argument("--prompt", required=True, help="Prompt for generation")
     parser.add_argument("--model", default="gemini-2.5-flash-image-landscape", help="Model name")
     parser.add_argument("--image_path", help="Path to local reference image")
